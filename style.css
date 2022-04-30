@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: "Montserrat", "Open sans";
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 10px;
+
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    height: 116px;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    width: 128px;
+    height: 29px;
+    font-size: 24px;
+    top: 44px;
+    left: 163px;
+
+}
+
+p {
+    font-family: "Open sans";
+    color: grey;
+}
+
+#navbar {
+    display: block;
+    text-align: center;
+
+}
+
+#nav-link {
+    text-decoration: none;
+    padding: 20px;
+
+}
+
+.icons {
+    float: right;
+    height: 17px;
+    width: 120px;
+    top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.banner {
+    margin: auto;
+    padding: 0;
+    height: 702px;
+    width: 1120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 116px;
+    left: 160px;
+
+}
+
+.book-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.left {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.right {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-end;
+    padding: 30px;
+}
+
+.text {
+    padding: 30px;
+}
+
+.amount {
+    display: flex;
+    padding-bottom: 1em;
+}
+
+.old {
+    text-decoration: line-through;
+    color: grey;
+    padding-left: 10px;
+}
+
+button {
+    background-color: white;
+    border: 1px solid #4c3db2;
+    padding: 10px 50px 10px 50px;
+    width: 200x;
+    color: #4c3db2;
+    font-size: 10px;
+    font-family: "Open sans";
+
+}
