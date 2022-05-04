@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-body {
+#container {
     font-family: "Montserrat", "Open sans";
     margin: 0;
     padding-left: 160px;
@@ -16,6 +16,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 8px;
+
 }
 
 h1 {
@@ -49,8 +51,8 @@ p {
 
 .icons {
     float: right;
-    height: 17px;
-    width: 120px;
+    height: 12px;
+    width: 100px;
     display: flex;
     justify-content: space-between;
 }
@@ -109,7 +111,7 @@ article {
     padding-bottom: 1em;
 }
 
-.old {
+.old-price {
     text-decoration: line-through;
     color: grey;
     padding-left: 10px;
@@ -125,4 +127,44 @@ button {
     font-size: 8px;
     font-family: "Montserrat";
     font-weight: 700;
+}
+
+@media (max-width: 600px) {
+   #container {
+       margin: 0px;
+       padding-left: 0px;
+       padding-right: 0px;
+       font-size: 15px;
+   }
+
+   #banner {
+       width: 100%;
+       height: auto;
+   }
+}
+
+@media (max-width: 400px) {
+    #container {
+        margin: 0;
+        padding: 0;
+        font-size: 15px;
+    }
+
+    #banner {
+        width: 100%;
+        height: auto;
+    }
+
+    .book-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
