@@ -148,7 +148,7 @@ button {
         width: auto;
         height: auto;
         margin: 0;
-        padding: 0;
+        padding: 20px;
         font-size: 10px;
     }
 
@@ -165,7 +165,6 @@ button {
 
     #navbar {
         width: 100%;
-        padding: 20px;
     }
 
     #nav-link {
